@@ -1,5 +1,5 @@
-import requests
-import matplotlib.pyplot as plt
+import requests # type: ignore
+import matplotlib.pyplot as plt # type: ignore
 import time
 
 print("Congrats!")
@@ -73,6 +73,7 @@ def main():
     vacc_data = get_vaccination_data()
     harmonized = harmonize(vacc_data, hosp_data)
     # visualize(harmonized)
+    print(harmonized)
     print(time.time() - start)
 
 
