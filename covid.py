@@ -2,7 +2,7 @@ import requests
 import matplotlib.pyplot as plt
 import time
 
-
+print("Congrats!")
 def get_hospitalization_data():
     hospitalizations_url = (
         "https://data.cdc.gov/resource/aemt-mg7g.json?jurisdiction=NC"
